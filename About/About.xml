@@ -5,9 +5,9 @@
 		<supportedVersions>
 			<li>1.3</li>
 		</supportedVersions>
-		<packageId>powerlunatic.flawless_electronics</packageId>
+		<packageId>powerlunatic.FlawlessElectronics</packageId>
     <url></url>
-	<description>This is a mod that removes all "Breakdownable" components from all buildings and other things. So they no longer need a constant supply of components to work and will not breakdown. Machinery in general no will longer be a pain in the arse for the player who wants to be concerned with less problems.</description>
+	<description>This is a "XML patch" mod that removes all "Breakdownable" components from all buildings and other things. So they no longer need a constant supply of components to work and will not breakdown. Machinery in general no will longer be a pain in the arse for the player who wants to be concerned with less problems.</description>
 	<modDependencies></modDependencies>
 	<loadBefore></loadBefore>
 	<loadAfter></loadAfter>
