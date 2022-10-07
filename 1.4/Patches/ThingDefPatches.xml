@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!-- Remove breakdownable components -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef/comps/li[@Class="CompProperties_Breakdownable"]</xpath>
+    </Operation>
+
+    <!-- Clean up empty nodes -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef/comps[not(*)]</xpath>
+    </Operation>
+</Patch>
